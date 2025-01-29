@@ -12,10 +12,15 @@
 		},
 
 		"color_scheme": "colored",
-		"highlight_color": "blue",
+		"highlight_color": "hsl(90, 50%, 60%)",
+		"highlight_color2": "hsl(135, 50%, 50%)",
 		"accent_color": "none",
 		"material": "none",
-		"transparency": "translucent",
+		"transparency": "opaque",
+
+		"corner_style": "square",
+		"sidebar_panels": false,
+		"label_icons": true,
 
 		"corner_style": "rounded",
 		"sidebar_panels": false,
@@ -25,7 +30,7 @@
 		"icon_material": "auto",
 		"icon_corners": "auto",
 		"icon_tilt": "none",
-		"icon_tint": "none",
+		"icon_tint": "blue",
 		"icon_background": true,
 
 		"icon_select_effect": "none",
@@ -34,7 +39,7 @@
 		"icon_unhighlight_effect": "none",
 		"icon_open_effect": "wobble",
 
-		"system_font": "Proxima Nova",
+		"system_font": "Bryant",
 		"title_font": null,
 		"label_font":  null,
 		"heading_font": null,
@@ -60,7 +65,7 @@
 
 		"background_image": null,
 		"background_size": "tile",
-		"background_color": "grey",
+		"background_color": "hsl(250, 25%, 33%)",
 		"background_repeats": 5,
 
 		"desktop_sidebar_transparency": "transparent",

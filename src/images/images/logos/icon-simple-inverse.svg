@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="background:white">
+	<defs>
+		<style>
+			#kitty #head {
+				fill:hsl(90, 50%, 60%);
+			}
+		</style>
+	</defs>
+
+	<rect width="512" height="512" fill="red" style="display:none" />
+
+	<g id="kitty">
+		<path id="head" d="M 204.6, 186.1 l -42.4 -69.5 c -1.6 -4 -5.4 -6.8 -9.7 -7.2 -4.3 -.4 -8.5, 1.6 -10.8, 5.3 -112.2, 238.9 -53.9, 304.5, 114.4, 303.7, 252.7, 1, 166.6 -206.3, 114.4 -310.7 -5.1-7.9 -16.9-6.9 -20.6, 1.8 l -42.4, 76.5 h -102.9 Z" />
+
+		<g id="whiskers">
+			<line x1="30" y1="330" x2="150" y2="330" />
+			<line x1="60" y1="390" x2="150" y2="360" />
+			<line x1="475" y1="330" x2="350" y2="330" />
+			<line x1="445" y1="390" x2="350" y2="360" />
+		</g>
+	</g>
+
+	<g id="shades" transform="translate(64, 130) scale(0.75, 0.5)">
+		<path d="M 496, 176 H 16 v 64 H 37.24 L 49.68, 352 H 221.55 L 240, 241.32 V 240 a 16, 16, 0, 0, 1, 32, 0 v 1.32 L 290.45, 352 H 462.32 l 12.44 -112 H 496 Z" />
+	</g>
+</svg>

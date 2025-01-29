@@ -1,21 +1,72 @@
-<svg
-	xmlns:svg="http://www.w3.org/2000/svg"
-	xmlns="http://www.w3.org/2000/svg"
-	viewBox="0 0 512 512"
-	height="512"
-	width="512">
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 	<defs>
-		<clipPath id="rounded-rect">
-			<rect width="512" height="512" x="0" y="0" rx="128" ry="128" fill="hsl(220, 100%, 66%)" stroke="hsl(220, 100%, 66%)" />
-		</clipPath>
+		<style>
+			#kitty #head {
+				stroke: white;
+				stroke-width: 20;
+				stroke-linecap: round;
+				stroke-linejoin: round;
+				fill: lightgrey;
+			}
+
+			#kitty #mouth, 
+			#kitty #whiskers {
+				stroke-width: 20;
+			}
+
+			#kitty #whiskers {
+				stroke-linecap: round;
+			}
+
+			#kitty #eyes {
+				fill: black
+			}
+
+			#kitty #nose {
+				fill: black;
+			}
+
+			#kitty #mouth {
+				stroke: black;
+			}
+
+			#kitty #whiskers {
+				stroke: grey;
+			}
+		</style>
 	</defs>
-   
-   <g clip-path="url(#rounded-rect)" >
-		<path d="M 0 0, 512 0, 512 512, 0 512 Z" fill="hsl(220, 100%, 66%)"/>
-		<g style="fill:white">
-			<path d="M 256, 0 0, 256 256, 256 512, 0 Z" />
-			<path d="M 0, 512 256, 256 512, 256 256, 512 Z" />
+
+	<rect width="480" height="480" x="16" y="16" rx="128" ry="128" fill="hsl(90, 50%, 60%)" stroke="hsl(90, 50%, 55%)" stroke-width="16" />
+
+	<g id="kitty" transform="translate(256, 256) scale(0.9) translate(0 -20) translate(0, 20) translate(-256, -256)">
+		<g id="kitty">
+			<path id="head" d="M 204.6, 186.1 l -42.4 -69.5 c -1.6 -4 -5.4 -6.8 -9.7 -7.2 -4.3 -.4 -8.5, 1.6 -10.8, 5.3 -112.2, 238.9 -53.9, 304.5, 114.4, 303.7, 252.7, 1, 166.6 -206.3, 114.4 -310.7 -5.1-7.9 -16.9-6.9 -20.6, 1.8 l -42.4, 76.5 h -102.9 Z" />
+
+			<g id="eyes">
+				<ellipse cx="205" cy="270" rx="20" ry="30" />
+				<ellipse cx="305" cy="270" rx="20" ry="30" />
+			</g>
+
+			<g id="mouth">
+				<line x1="255" y1="315" x2="255" y2="365" />
+				<line x1="215" y1="370" x2="255" y2="365" />
+				<line x1="255" y1="365" x2="295" y2="370" />
+			</g>
+
+			<g id="nose">
+				<ellipse cx="255" cy="320" rx="30" ry="20" />
+			</g>
+
+			<g id="whiskers">
+				<line x1="30" y1="330" x2="150" y2="330" />
+				<line x1="60" y1="390" x2="150" y2="360" />
+				<line x1="475" y1="330" x2="350" y2="330" />
+				<line x1="445" y1="390" x2="350" y2="360" />
+			</g>
+		</g>
+
+		<g id="shades" transform="translate(64, 130) scale(0.75, 0.5)">
+			<path d="M 496, 176 H 16 v 64 H 37.24 L 49.68, 352 H 221.55 L 240, 241.32 V 240 a 16, 16, 0, 0, 1, 32, 0 v 1.32 L 290.45, 352 H 462.32 l 12.44 -112 H 496 Z" />
 		</g>
 	</g>
 </svg>

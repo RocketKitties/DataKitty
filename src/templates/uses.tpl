@@ -17,77 +17,8 @@
 				</a>
 			</div>
 			<div class="col-sm-6">
-				<div class="icon-grid figure">
-					<div class="file item">
-						<div class="row">
-							<div class="icon"><img src="images/icons/files/text.svg" /></div>
-						</div>
-						<div class="row">
-							<div class="name">File</div>
-						</div>
-					</div>
-					<div class="file item">
-						<div class="row">
-							<div class="icon"><img src="images/icons/files/text.svg" /></div>
-							<div class="badges">
-								<div class="links badge tooltip-trigger" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="has 1 link">
-									<i class="fa fa-link"></i>
-									<span class="num-links">3</span>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="name">Linked File</div>
-						</div>
-					</div>
-					<div class="file item">
-						<div class="row">
-							<div class="icon">
-								<img src="images/icons/files/text.svg" />
-								<div class="owner small tile">
-									<div class="thumbnail" style="background-image:url(images/logos/kitty-logo.svg"></div>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="name">Shared File</div>
-						</div>
-					</div>
-					<div class="directory item">
-						<div class="row">
-							<div class="icon"><img src="images/icons/folders/folder-full.svg" /></div>
-						</div>
-						<div class="row">
-							<div class="name">Folder</div>
-						</div>
-					</div>
-					<div class="directory item">
-						<div class="row">
-							<div class="icon"><img src="images/icons/folders/folder-full.svg" /></div>
-							<div class="badges">
-								<div class="links badge tooltip-trigger" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="has 1 link">
-									<i class="fa fa-link"></i>
-									<span class="num-links">5</span>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="name">Linked Folder</div>
-						</div>
-					</div>
-					<div class="directory item">
-						<div class="row">
-							<div class="icon">
-								<img src="images/icons/folders/folder-full.svg" />
-								<div class="owner small tile">
-									<div class="thumbnail" style="background-image:url(images/logos/kitty-logo.svg"></div>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="name">Shared Folder</div>
-						</div>
-					</div>
+				<div class="figure">
+					<a href="#uses/file-sharing"><img src="images/info/uses/file-sharing.png" style="filter:none" /></a>
 				</div>
 			</div>
 		</div>
@@ -182,91 +113,8 @@
 				</a>
 			</div>
 			<div class="col-sm-6">
-				<div class="icon-grid figure">
-					<div class="file item">
-						<div class="row">
-							<div class="icon"><img src="images/icons/files/sql.svg" /></div>
-							<div class="badges">
-								<div class="links badge tooltip-trigger" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="has 1 link">
-									<i class="fa fa-link"></i>
-									<span class="num-links">1</span>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="name">Authentication</div>
-						</div>
-					</div>
-					<div class="file item">
-						<div class="row">
-							<div class="icon"><img src="images/icons/files/pas.svg" /></div>
-							<div class="badges">
-								<div class="links badge tooltip-trigger" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="has 3 links">
-									<i class="fa fa-link"></i>
-									<span class="num-links">3</span>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="name">parser.pas</div>
-						</div>
-					</div>
-					<div class="file item">
-						<div class="row">
-							<div class="icon"><img src="images/icons/files/make.svg" /></div>
-							<div class="badges">
-								<div class="links badge tooltip-trigger" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="has 5 links">
-									<i class="fa fa-link"></i>
-									<span class="num-links">5</span>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="name">Makefile</div>
-						</div>
-					</div>
-					<div class="file item">
-						<div class="row">
-							<div class="icon"><img src="images/icons/files/h.svg" /></div>
-							<div class="badges">
-								<div class="links badge tooltip-trigger" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="has 2 links">
-									<i class="fa fa-link"></i>
-									<span class="num-links">2</span>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="name">metar.h</div>
-						</div>
-					</div>
-					<div class="file item">
-						<div class="row">
-							<div class="icon"><img src="images/icons/files/py.svg" /></div>
-							<div class="badges">
-								<div class="links badge tooltip-trigger" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="has 1 link">
-									<i class="fa fa-link"></i>
-									<span class="num-links">1</span>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="name">number-game.py</div>
-						</div>
-					</div>
-					<div class="file item">
-						<div class="row">
-							<div class="icon"><img src="images/icons/files/rb.svg" /></div>
-							<div class="badges">
-								<div class="links badge tooltip-trigger" data-toggle="tooltip" title="" data-placement="bottom" data-original-title="has 2 links">
-									<i class="fa fa-link"></i>
-									<span class="num-links">2</span>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="name">polynomial.rb</div>
-						</div>
-					</div>
+				<div class="figure">
+					<a href="#uses/code-sharing"><img src="images/info/uses/code-sharing.png" style="filter:none" /></a>
 				</div>
 			</div>
 		</div>

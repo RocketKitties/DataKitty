@@ -34,19 +34,19 @@ Desktop
 
 ## Live Demo
 
-You can create an account and explore the features and benefits of the platform at [www.datakitty.org](https://www.datakitty.org).
+You can create an account and explore the features and benefits of the platform at [datakitty.org](https://datakitty.org).
 
 ## Installation
 
-Please follow the instructions in [www.datakitty.org/#installation](https://www.datakitty.org/#installation) to install the software on your computer or web server.
+Please follow the instructions in [datakitty.org/#installation](https://datakitty.org/#installation) to install the software on your computer or web server.
 
 ## Instructions
 
-See the [Sharedigm User Guide](https://www.sharedigm.com/#help) for instructions on how to use the platform.
+See the [DataKitty User Guide](https://datakitty.org/#help) for instructions on how to use the platform.
 
 ## License
 
-Distributed under the IndieSource License which allows unrestricted use of the software except by very large corporations. See [LICENSE.md](LICENSE.md) for more information.
+Distributed under the <a href="https://indiesource.org/">IndieSource License</a> which allows unrestricted use of the software except by very large corporations. See [LICENSE.md](LICENSE.md) for more information.
 
 ## Contact
 

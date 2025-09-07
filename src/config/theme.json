@@ -1,14 +1,14 @@
 {
 	"general": {
 		"day_theme": {
-			"phone": "auto",
-			"tablet": "auto",
-			"desktop": "auto"
+			"phone": "dark",
+			"tablet": "dark",
+			"desktop": "dark"
 		},
 		"night_theme": {
-			"phone": "auto",
-			"tablet": "auto",
-			"desktop": "auto"
+			"phone": "dark",
+			"tablet": "dark",
+			"desktop": "dark"
 		},
 
 		"color_scheme": "colored",

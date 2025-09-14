@@ -7,10 +7,10 @@
 DataKitty is a cloud-based file storage, management, and sharing system. DataKitty makes sharing your data simple. Best of all, you can run it on your own server.
 
 ![Screen Shot](images/screen-shots/welcome.png)
-Welcome Screen
+*Welcome Screen*
 
 ![Screen Shot](images/screen-shots/desktop.png)
-Desktop
+*Desktop*
 
 ## Features
 

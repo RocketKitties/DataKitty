@@ -56,7 +56,7 @@
 			},
 			"RocketKitty": {
 				"icon": "fa fa-rocket",
-				"href": "http://www.rocketkitty.org"
+				"href": "http://rocketkitty.org"
 			}
 		},
 
@@ -76,45 +76,21 @@
 		}
 	},
 
-	"welcome": {
-		"background": "linear-gradient(to bottom, hsla(135, 50%, 0%, 0%) 0%, hsla(135, 50%, 50%, 50%) 100%)",
-		"background_image": "images/backgrounds/matrix.gif",
+	"welcome": {		
 		"template": "welcome.tpl",
+		"background_image": "images/backgrounds/matrix.gif",
+		"background_size": "auto",
+
+		"masthead": {
+			"height": "100% - 70px"
+		},
 
 		"carousel": {
 			"template": "welcome/carousel.tpl",
+			"background2": "hsl(250, 25%, 33%)",
 			"background": "linear-gradient(to bottom, hsla(250, 25%, 0%, 0%) 0%, hsla(250, 25%, 15%, 100%) 100%)",
 			"color": "white"
 		},
-
-		"ribbons": [{
-			"text": "Open Source",
-			"font_weight": "bold",
-			"height": 40,
-			"line_height": 40,
-			"corner": "bottom right",
-			"offset": 60,
-			"url": "#downloads"
-		}, {
-			"text": "Free",
-			"font_weight": "bold",
-			"height": 40,
-			"line_height": 40,
-			"corner": "bottom right",
-			"offset": 20,
-			"color": "black",
-			"background": "white",
-			"shadow": "none",
-			"url": "#installation"
-		}, {
-			"text": "&nbsp;",
-			"font_weight": "bold",
-			"height": 40,
-			"line_height": 40,
-			"corner": "bottom right",
-			"offset": -20,
-			"shadow": "none"
-		}],
 		
 		"splash": {
 			"background": "transparent",
@@ -159,14 +135,43 @@
 			},
 
 			"description": {
-				"text": "Free, friendly, self-hostable cloud-based storage, communication, and sharing.",
+				"text": "Free, friendly, self-hostable cloud-based storage, communications, and sharing platform.",
 				"color": "white"
 			}
 		},
 
 		"overlay": {
 			"background": "linear-gradient(to bottom, hsla(250, 25%, 0%, 0%) 0%, hsla(250, 25%, 15%, 100%) 100%)"
-		}
+		},
+
+		"ribbons": [{
+			"text": "Open Source",
+			"font_weight": "bold",
+			"height": 40,
+			"line_height": 40,
+			"corner": "bottom right",
+			"offset": 60,
+			"url": "#downloads"
+		}, {
+			"text": "Free",
+			"font_weight": "bold",
+			"height": 40,
+			"line_height": 40,
+			"corner": "bottom right",
+			"offset": 20,
+			"color": "black",
+			"background": "white",
+			"shadow": "none",
+			"url": "#installation"
+		}, {
+			"text": "&nbsp;",
+			"font_weight": "bold",
+			"height": 40,
+			"line_height": 40,
+			"corner": "bottom right",
+			"offset": -20,
+			"shadow": "none"
+		}]
 	},
 
 	"page": {
@@ -280,7 +285,7 @@
 						},
 						"RocketKitty": {
 							"icon": "fa fa-rocket",
-							"href": "http://www.rocketkitty.org"
+							"href": "http://rocketkitty.org"
 						}
 					}
 				}
@@ -294,7 +299,7 @@
 		"copyright": {
 			"year": "2025",
 			"logo": "images/logos/rocketkitty-icon-white.svg",
-			"url": "http://www.rocketkitty.org",
+			"url": "http://rocketkitty.org",
 			"entity": "RocketKitty.org"
 		}
 	}
